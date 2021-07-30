@@ -3,7 +3,7 @@ import cv2
 
 # cap = cv2.VideoCapture(1)
 
-detector = FaceDetector(model_selection=0)
+detector = FaceDetector(model_selection=1)
 
 while True:
     img = cv2.imread('./images/pink.jpg')
